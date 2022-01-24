@@ -1,0 +1,32 @@
+{
+  "name": "@yixuan-wang/component-leipzig",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "version": "0.0.0",
+  "description": "A WebComponent for rendering Leipzig Interlinear Gloss.",
+  "homepage": "http://github.com/Yixuan-Wang/component-leipzig",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "svelte": "^3.5.0"
+  },
+  "keywords": [
+    "svelte",
+    "web component",
+    "interlinear",
+    "gloss",
+    "linguistics"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ]
+}
