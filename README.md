@@ -15,7 +15,7 @@ The HTML tag of this component is `<leipzig-gloss />`.
 ## Reference
 
 ```html
-<leipzig-glossing def="#.:#" lang="en,ru,en,en" data="
+<leipzig-gloss def="#.:#" lang="en,ru,en,en" data="
 Russian
 My s Marko poexa-l-i avtobus-om v Peredelkino. 
 1PL COM Marko go-PST-PL bus-INS ALL Peredelkino
